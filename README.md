@@ -26,7 +26,11 @@ Run the backend development server: npm run start:dev
 For the frontend:
 
 Navigate to the frontend folder: cd frontend
-Install frontend dependencies: npm install
-Run the frontend development server: npm run serve
-Feel free to explore, contribute, and learn along the way. Happy coding!
+Install frontend dependencies:
+Quick Start:
+1. Run yarn install
+2. Run yarn start
+There are also other npm tasks:
+yarn build: if you need just to build the app (without running a dev server)
+yarn lint: to check the source code for syntax errors and potential issues
 
