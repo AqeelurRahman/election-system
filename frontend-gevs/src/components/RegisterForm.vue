@@ -52,7 +52,7 @@ export default {
     onSubmit(event: any) {
       let a = store.getName;
       event.preventDefault()
-      store.CreateRegistration(this.form);
+      store.CreateRegistration(this.form)
       alert(JSON.stringify(this.form))
       RegisterApiCall(this.form)
         .then((response) => {

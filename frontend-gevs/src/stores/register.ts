@@ -8,7 +8,7 @@ interface RegisterState {
 }
 
 export const useRegisterStore = defineStore({
-  id: 'AuthStore',
+  id: 'RegisterStore',
   state: (): RegisterState => ({
     email: '',
     name: '',
@@ -17,7 +17,6 @@ export const useRegisterStore = defineStore({
   }),
   actions: {
     CreateRegistration(o: Register) {
-      debugger
       this.email = o.email
       this.name = o.name
       this.food = o.food
@@ -25,6 +24,6 @@ export const useRegisterStore = defineStore({
     }
   },
   getters: {
-    getName: (state) => state.name,
+    getName: (state) => state.name
   }
 })
