@@ -25,8 +25,11 @@ class DatabaseSeeder extends Seeder
             'failed_jobs',
         ]);
 
+        $this->call(PartySeeder::class);
+        $this->call(ConstituencySeeder::class);
         $this->call(AuthSeeder::class);
         $this->call(AnnouncementSeeder::class);
+        $this->call(UVCSeeder::class);
 
         Model::reguard();
     }
