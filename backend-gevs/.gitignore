@@ -1,35 +1,32 @@
-# compiled output
-/dist
-/node_modules
-
-# Logs
-logs
-*.log
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-
-# OS
-.DS_Store
-
-# Tests
 /coverage
-/.nyc_output
-
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
+/node_modules
+/public/css
+/public/js
+/public/fonts
+/public/hot
+/public/storage
+/public/mix-manifest.json
+/storage/*.key
+/vendor
+/.vscode
+*.sublime-project
 *.sublime-workspace
-
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+_ide_helper.php
+.DS_Store
+.env
+.env.backup
+.idea
+.php_cs.cache
+.phpunit.result.cache
+.phpstorm.meta.php
+.project
+composer.phar
+coverage.xml
+docker-compose.override.yml
+error.log
+Homestead.json
+Homestead.yaml
+npm-debug.log
+output.txt
+Thumbs.db
+yarn-error.log
